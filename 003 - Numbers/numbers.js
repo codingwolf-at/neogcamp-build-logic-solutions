@@ -75,11 +75,27 @@ const sumUpto2 = (num) => {
 // Q8. Write a Program to Print N Odd Number.
 const printOddNumber = () => {
   const num = readlineSync.questionInt("Enter the value of N: ");
-  const FIRST = 1;
+  let FIRST = 1;
   for (let i = 1; i<=num; i++) {
-    
-    console.log()
+    console.log(FIRST);
+    FIRST+=2;
   }
 }
 
-printOddNumber();
+// Q9. Write a JavaScript program to compute the sum of all digits that occur in a given string.
+const sumOfDigits = () => {
+  const input = readlineSync.question("Enter a string of digits: ");
+  let sum = 0;
+  let remaining = input;
+  while (remaining !== 0) {
+    sum = sum + (remaining%10);
+    remaining = parseInt(remaining/10);
+  }
+  console.log(`Sum of all digits: ${sum}`);
+}
+
+// Q10. Write a JavaScript program that reverses a number.
+const reverseNumber = () => {
+  const input = readlineSync.questionInt("Enter a positive number: ");
+  
+}
