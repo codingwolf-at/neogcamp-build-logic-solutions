@@ -67,4 +67,4 @@ const typeOfTriangle = (a, b, c) => {
   }
 }
 
-console.log();
+console.log(typeOfTriangle(45,45,90))
