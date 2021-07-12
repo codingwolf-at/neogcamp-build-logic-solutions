@@ -21,8 +21,6 @@ const reverseString2 = str => {
   return resultArray.join("");
 }
 
-console.log(reverseString2("abc"));
-
 // Q3. Program that reads string and count number of characters present in the string
 
 const strLength = str => str.length;
