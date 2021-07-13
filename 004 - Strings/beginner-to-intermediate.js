@@ -13,12 +13,20 @@ const strAppend = (strOne, strTwo) => strTwo+strOne;
 const reverseString = str => str.split("").reverse().join("");
 
 const reverseString2 = str => {
-  const strArray = str.split("");
+  const strArray = str.split(""); 
   let resultArray = [];
-  for (let i = strArray.length; i>=0; i--) {
+  for (let i = strArray.length-1; i>=0; i--) {
     resultArray.push(strArray[i]);
   }
   return resultArray.join("");
+}
+
+const reverseString3 = str => {
+  let result = "";
+  for (let i = str.length-1; i>=0; i--) {
+    result += str[i]
+  }
+  return result;
 }
 
 // Q3. Program that reads string and count number of characters present in the string
