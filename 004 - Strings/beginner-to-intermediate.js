@@ -15,8 +15,8 @@ const reverseString = str => str.split("").reverse().join("");
 const reverseString2 = str => {
   const strArray = str.split(""); 
   let resultArray = [];
-  for (let i = strArray.length-1; i>=0; i--) {
-    resultArray.push(strArray[i]);
+  for (char of strArray) {
+    resultArray.unshift(char);
   }
   return resultArray.join("");
 }
@@ -28,7 +28,6 @@ const reverseString3 = str => {
   }
   return result;
 }
-
 // Q3. Program that reads string and count number of characters present in the string
 
 const strLength = str => str.length;
