@@ -51,6 +51,52 @@ const removeVowels2 = str => {
   return result.join("");
 }
 
+// Q6. Write a program to check whether the string is alphanumeric or not , eg:batman@45 contains digit 45
+
+const isAlphaNumeric = str => {
+  let flag = false;
+  for (char of str) {
+    if (!isNaN(char)) {
+      flag = true;
+    }
+  }
+  return flag;
+}
+
+// Q7. A program that reads strings and prints the longest and smallest one.
+
+const stringLengthComparison = (...arr) => {
+  let smallest = arr[0];
+  let longest = arr[0];
+  arr.map(str => {
+    if (str.length > longest.length) {
+      longest = str;
+    } 
+    if (str.length < smallest.length) {
+      smallest = str;
+    }
+  })
+  return `Smallest string is: ${smallest},\nLongest string is: ${longest}`
+}
+
+// Q8. A program that counts number of vowels and consonants in a String.
+
+const stringCounter = str => {
+  const vowels = ["a","e","i","o","u","A","E","I","O","U"];
+  let vowelCounter = 0;
+  let consonantCounter = 0;
+  for (char of str) {
+    if (vowels.indexOf(char) === -1) {
+      consonantCounter = consonantCounter + 1
+    } else {
+      vowelCounter = vowelCounter + 1
+    }
+  }
+  return `No of vowels: ${vowelCounter},\nNo of consonants: ${consonantCounter}`
+}
+
+// Q9. Write a program which receives a string str that calculates the length of a string and return true if the length is greater than 7 without using str.length()
 
 
-console.log()
+
+console.log();
