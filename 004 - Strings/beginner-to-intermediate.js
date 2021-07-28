@@ -97,6 +97,18 @@ const stringCounter = str => {
 
 // Q9. Write a program which receives a string str that calculates the length of a string and return true if the length is greater than 7 without using str.length()
 
+const greaterThan7 = str => {
+  let length = 0;
+  for (char of str) {
+    length++;
+  }
+  if (length > 7) {
+    return true
+  } else {
+    return false
+  }
+}
+
 
 
 console.log();
