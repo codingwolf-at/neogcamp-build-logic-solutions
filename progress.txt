@@ -8,7 +8,7 @@ Done till:
 
 # 004 - beginner-to-intermediate Q9 only
 
-# 005 - done till Q4
+# 005 - beginner-intermediate all
 -> redo Q4 using hash table
 
 # 006 - not started yet
