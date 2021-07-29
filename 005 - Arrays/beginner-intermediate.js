@@ -71,4 +71,23 @@ const mode = arr => {
   return globalChar;
 }
 
-console.log(mode([9,10,12,13,13,15,16,18]))
+// Q5. Find sum of two arrays.
+
+const twoArraySum = (arrOne, arrTwo) => {
+  const sumOne = arrOne.reduce((a,b) => a+b);
+  const sumTwo = arrTwo.reduce((a,b) => a+b);
+  return `sumOne: ${sumOne},\nsumTwo: ${sumTwo}`
+}
+
+// Q6. Find number of constants and vowels in a string.
+// { Already done -> Q8 of String beginner-to-intermediate }
+
+// Q7. Shift an array by X to right. Example [1,2,3,4,5] after shifting to right [5,1,2,3,4]
+
+const shiftToRight = (arr, x) => {
+  for(let i = 0; i<x; i++) {
+    let temp = arr.pop()
+    arr.unshift(temp)
+  }
+  return arr;
+}
