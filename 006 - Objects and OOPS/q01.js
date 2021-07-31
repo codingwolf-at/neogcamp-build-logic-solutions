@@ -72,4 +72,19 @@ const funTwo = arr => {
 	return name;
 }
 
-console.log(funTwo(studentDetails))
+// Q3. Print the name of student whose total marks is lowest.
+
+const funThree = arr => {
+	let minTotalMarks = Infinity;
+	let name;
+	for (obj of arr) {
+		const totalMarks = obj.english + obj.maths + obj.science + obj.computer;
+		if (totalMarks < minTotalMarks) {
+			minTotalMarks = totalMarks;
+			name = obj.name;
+		}
+	}
+	return name;
+}
+
+console.log(funThree(studentDetails))
