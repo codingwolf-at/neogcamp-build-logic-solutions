@@ -87,4 +87,12 @@ const funThree = arr => {
 	return name;
 }
 
-console.log(funThree(studentDetails))
+// Q4. Print the average marks of the class in computer subject.
+
+const funFour = arr => {
+	let computerMarks = 0;
+	for (obj of arr) {
+		computerMarks += obj.computer
+	}
+	return computerMarks/arr.length
+}
