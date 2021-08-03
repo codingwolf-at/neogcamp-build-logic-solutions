@@ -1,14 +1,20 @@
 Done till: 
 
 # 001 - easy all 
+remaining: intermediate
 
 # 002 - easy all
+remaining: medium, advanced
 
 # 003 - Q9 only
+remaining: Q10 - Q12
 
 # 004 - beginner-to-intermediate Q9 only
+remaining: Q9 - Q12 , advanced
 
 # 005 - beginner-intermediate all
 -> redo Q4 using hash table
+remaining: advanced
 
 # 006 - q01 only
+remaining: q02 - q04
