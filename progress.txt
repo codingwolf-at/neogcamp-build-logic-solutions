@@ -11,4 +11,4 @@ Done till:
 # 005 - beginner-intermediate all
 -> redo Q4 using hash table
 
-# 006 - q01 Q3
+# 006 - q01 only
