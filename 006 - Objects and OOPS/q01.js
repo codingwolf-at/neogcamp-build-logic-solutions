@@ -123,3 +123,12 @@ const funFive = arr => {
 }
 
 // console.table(funFive(studentDetails))
+
+// Q6. Print the total number of students passed and their names. Pass when total marks is greater than 35%.
+
+const funSix = arr => {
+	const temp = funFive(arr);
+	return temp.filter(student => student.Grade !== "D" )
+}
+
+console.log(funSix(arr))
