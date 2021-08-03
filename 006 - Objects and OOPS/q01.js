@@ -96,3 +96,30 @@ const funFour = arr => {
 	}
 	return computerMarks/arr.length
 }
+
+// Q5. Print the grades of all students:
+// -> Grade A if total marks is higher than or equal to 75%,
+// -> Grade B if higher than or equal to 60%,
+// -> Grade C if higher than or equal to 35%,
+// -> Grade D if lower than 35%.
+
+const funFive = arr => {
+	const resultArr = [];
+	for (student of studentDetails) {
+	const totalMarks = student.english + student.maths + student.science + student.computer;
+		const name = student.name;
+		const studentPercentage = (totalMarks/400)*100;
+		if (studentPercentage >= 75) {
+			resultArr.push({name, Grade: "A"})
+		} else if (studentPercentage >= 60) {
+			resultArr.push({name, Grade: "B"})
+		} else if (studentPercentage >= 35) {
+			resultArr.push({name, Grade: "C"})
+		} else {
+			resultArr.push({name, Grade: "D"})
+		}
+	}
+	return resultArr;
+}
+
+// console.table(funFive(studentDetails))
