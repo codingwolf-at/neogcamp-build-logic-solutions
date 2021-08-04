@@ -1,7 +1,7 @@
 Done till: 
 
 # 001 - easy all 
-remaining: intermediate
+remaining: intermediate Q3 onwards
 
 # 002 - easy all
 remaining: medium, advanced
