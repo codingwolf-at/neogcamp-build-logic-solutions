@@ -43,12 +43,18 @@ const printTableTo12 = num => {
 // Q4. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21....
 
 const printFibonacci = num => {
+  let resultArr = [];
   let numOne = 0;
   let numTwo = 1;
+  resultArr.push(numOne, numTwo);
   let numThree;
-  for (let i = 0; i<num; i++) {
-    
+  while (resultArr.length<num) {
+    numThree = numOne+numTwo;
+    resultArr.push(numThree);
+    numOne = numTwo;
+    numTwo = numThree;
   }
+  return resultArr;
 }
 
-console.log(printTableTo12(2));
+console.log(printFibonacci(9));
