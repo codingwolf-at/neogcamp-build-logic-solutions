@@ -109,6 +109,5 @@ const greaterThan7 = str => {
   }
 }
 
-
-
+// Call and test functions here: 
 console.log();

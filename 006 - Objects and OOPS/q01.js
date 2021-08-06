@@ -131,4 +131,5 @@ const funSix = arr => {
 	return temp.filter(student => student.Grade !== "D" )
 }
 
-console.log(funSix(arr))
+// Call and test functions here: 
+console.log();

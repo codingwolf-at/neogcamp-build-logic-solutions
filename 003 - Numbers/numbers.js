@@ -99,3 +99,6 @@ const reverseNumber = () => {
   const input = readlineSync.questionInt("Enter a positive number: ");
   
 }
+
+// Call and test functions here: 
+console.log();

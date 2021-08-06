@@ -74,4 +74,5 @@ const monthDaysCounter = (month) => {
   }
 }
 
+// Call and test functions here: 
 console.log();

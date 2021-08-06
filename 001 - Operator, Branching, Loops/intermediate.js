@@ -96,4 +96,5 @@ const checkDay = day => {
   }
 } 
 
-console.log()
+// Call and test functions here: 
+console.log();

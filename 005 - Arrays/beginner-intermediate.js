@@ -91,3 +91,6 @@ const shiftToRight = (arr, x) => {
   }
   return arr;
 }
+
+// Call and test functions here: 
+console.log();
