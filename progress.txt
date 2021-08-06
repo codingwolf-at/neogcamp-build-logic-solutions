@@ -3,8 +3,8 @@ Done till:
 # 001 - intermediate all 
 -> doubt in Q6
 
-# 002 - easy all
-remaining: medium, advanced
+# 002 - medium all
+remaining: advanced
 
 # 003 - Q9 only
 remaining: Q10 - Q12
