@@ -74,17 +74,13 @@ const checkPrime = num => {
     for (let i = 2; i<num; i++) {
       if (num%i === 0) {
         return false
-      } else {
-        return true
       }
     }
+    return true
   } else {
     return false
   }
 }
-
-// console.log(checkPrime(9));
-// -> true // why? 
 
 // Q7. Write a program to take a day as an input and determine whether it is a weekday or weekend. Example: Tuesday is weekday.
 
