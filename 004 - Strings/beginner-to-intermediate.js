@@ -109,5 +109,22 @@ const greaterThan7 = str => {
   }
 }
 
+// Q10. Write a program that takes two strings and copies smaller string into bigger string
+
+const copySmallToBig = (strOne, strTwo) => {
+  if (strOne.length > strTwo.length) {
+    return strOne = strOne + strTwo;
+  } else {
+    return strTwo = strTwo + strOne;
+  }
+}
+
+// Q11. Given a string, determine if it is a palindrome, considering only alphanumeric characters
+
+const palindromeCheck = str => {
+  const reverseStr = str.split("").reverse().join("")
+  return reverseStr === str;
+}
+
 // Call and test functions here: 
 console.log();
