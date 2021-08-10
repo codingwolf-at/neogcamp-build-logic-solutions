@@ -9,8 +9,8 @@ remaining: Q1, Q3, Q4
 # 003 - Q9 only
 remaining: Q10 - Q12
 
-# 004 - beginner-to-intermediate Q9 only
-remaining: Q9 - Q12 , advanced
+# 004 - beginner-to-intermediate Q11 only
+remaining: Q12 - Q15 , advanced
 
 # 005 - beginner-intermediate all
 -> redo Q4 using hash table
