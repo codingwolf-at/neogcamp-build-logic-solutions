@@ -3,8 +3,8 @@ Done till:
 # 001 - intermediate all 
 remaining: none
 
-# 002 - medium all
-remaining: advanced
+# 002 - advanced Q2
+remaining: Q1, Q3, Q4
 
 # 003 - Q9 only
 remaining: Q10 - Q12
